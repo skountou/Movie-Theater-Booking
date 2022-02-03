@@ -5,6 +5,9 @@
 }
 
 body {
+    background-image: url('denise-jans.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgb(40, 0, 0, 0.93);
     color: #fff;
     display: flex;
@@ -13,7 +16,7 @@ body {
     justify-content: center;
     height: 100vh;
     font-family:'Lato', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.35rem;
     margin: 0;
 }
 
@@ -33,12 +36,12 @@ body {
 }
 
 .seat {
-    background-color: #717179;
-    height: 12px;
-    width: 15px;
+    background-color: #8a8a94;
+    height: 22px;
+    width: 25px;
     margin: 3px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .seat.selected {
@@ -91,7 +94,7 @@ body {
 
 .screen {
     background-color: #fff;
-    height: 140px;
+    height: 180px;
     width: 75%;
     transform: rotateX(-45deg);
     box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.7);
